@@ -1,0 +1,58 @@
+.imageAppBody{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+input{
+    padding: 10px 20px;
+    width: 20rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.ImageContainer{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+button{
+    padding: 5px 7px;
+    border: none;
+    /* background-color: gray; */
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+button:active{
+    transform: scale(0.96);
+}
+.pagenation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+span{
+    font-weight: bold;
+    color: brown;
+}
